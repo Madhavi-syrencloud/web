@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Syren Cloud</h1>
+    </div>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <form onsubmit="return saveUserData(event)">
+            <label>Email ID</label>
+            <input type="email" id="signup-email" placeholder="Email" required>
+            <br>
+            <label>Password</label>
+            <input type="password" id="signup-password" placeholder="Password" required>
+            <br>
+            <label>Confirm Password</label>
+            <input type="password" id="signup-confirm-password" placeholder="Confirm password" required>
+            <br><br>
+            <button type="submit">Submit</button>
+            <br><br>
+        </form>
+    </div>
+    <p class="p1">Already have an account? <a href="index.html">Login Here</a></p>
+    <div class="footer">
+        <p>2024 SyrenCloud | All Rights Reserved</p>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
